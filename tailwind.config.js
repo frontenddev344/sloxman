@@ -8,7 +8,7 @@ module.exports = {
         'rubik': ['Rubik', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-pattern': "url('../src/images/home_banner_lg_bg.png')",
+        'hero-pattern': "url('../src/images/home_banner_lg_bg.jpg')",
         'about_banner': "url('../src/images/about_banner.png')",
         'contact_bnr': "url('../src/images/contact_bnr.jpg')",
         'termn': "url('../src/images/termn.jpg')",
