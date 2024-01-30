@@ -733,6 +733,10 @@ video {
   gap: 30px;
 }
 
+.gap-\[50px\] {
+  gap: 50px;
+}
+
 .gap-x-\[30px\] {
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -810,6 +814,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f5317f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 49 127 / var(--tw-bg-opacity));
 }
 
 .bg-about_banner {
@@ -931,6 +940,11 @@ video {
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .pb-\[100px\] {
