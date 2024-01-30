@@ -544,10 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -562,10 +558,6 @@ video {
 
 .top-\[70px\] {
   top: 70px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .z-10 {
@@ -819,6 +811,10 @@ video {
   background-image: url('../src/images/about_banner.png');
 }
 
+.bg-contact_bnr {
+  background-image: url('../src/images/contact_bnr.png');
+}
+
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -855,10 +851,6 @@ video {
 
 .p-\[30px\] {
   padding: 30px;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-4 {
@@ -1103,20 +1095,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /*  */
 
 .custom-box-shadow {
@@ -1236,16 +1214,6 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-red-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
 .hover\:text-\[\#f5317f\]:hover {
   --tw-text-opacity: 1;
   color: rgb(245 49 127 / var(--tw-text-opacity));
@@ -1259,11 +1227,6 @@ video {
 .active\:bg-blue-700:active {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.active\:bg-blue-800:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .active\:text-\[\#f5317f\]:active {
