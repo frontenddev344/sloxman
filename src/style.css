@@ -25,3 +25,9 @@
 .background {
     background-image: linear-gradient(red, yellow);
 }
+
+.active {
+    background-color: #d90000;
+    color: #fff;
+
+}

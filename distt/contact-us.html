@@ -34,7 +34,7 @@
                                     αναπαραγωγής
                                 </a></li>
                             <li><a href="contact-us.html"
-                                    class="text-white lg:text-[#25294a] text-[16px] py-2 inline-block  uppercase hover:text-[#f5317f]">Επικοινωνήστε
+                                    class="active text-white lg:text-[#25294a] text-[16px] py-2 inline-block  uppercase hover:text-[#f5317f]">Επικοινωνήστε
                                     μαζί μας</a>
                             </li>
                         </ul>
@@ -169,6 +169,14 @@
             })
         });
 
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.menu ul li a').click(function () {
+                $('li a').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
     </script>
     <script src="../src/js/aos.js"></script>
     <script>

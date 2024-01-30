@@ -1118,6 +1118,11 @@ video {
   background-image: linear-gradient(red, yellow);
 }
 
+.active {
+  background-color: #d90000;
+  color: #fff;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
