@@ -14,7 +14,7 @@
 }
 
 .box-shadow {
-    box-shadow: #f5317f 6px 4px;
+    box-shadow: #25294a 6px 4px;
 }
 
 .custom-image {
@@ -22,9 +22,6 @@
     color: #f5317f;
 }
 
-.background {
-    background-image: linear-gradient(red, yellow);
-}
 
 .active {
     color: #f5317f !important;
