@@ -812,7 +812,7 @@ video {
 }
 
 .bg-contact_bnr {
-  background-image: url('../src/images/contact_bnr.png');
+  background-image: url('../src/images/contact_bnr.jpg');
 }
 
 .bg-gradient-to-br {
@@ -1114,7 +1114,7 @@ video {
   color: #f5317f;
 }
 
-.background{
+.background {
   background-image: linear-gradient(red, yellow);
 }
 
@@ -1380,4 +1380,3 @@ video {
     color: rgb(37 41 74 / var(--tw-text-opacity));
   }
 }
-
