@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>ΕΠΙΚΟΙΝΩΝΉΣΤΕ ΜΑΖΊ ΜΑΣ </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body class="font-lato">
+    <!-- Header section  -->
+    <header>
+        <div>
+            <div class=" mx-auto px-[15px] w-[100%] max-w-[1400px]">
+                <nav class="flex justify-between items-center py-4">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../src/images/Logo-dark-n.png" alt="">
+                        </a>
+                    </div>
+                    <div
+                        class="menu hidden absolute top-[70px] h-full left-0 bg-[#25294a] w-full lg:block lg:bg-transparent lg:static lg:left-auto lg:w-auto z-50">
+                        <ul class="px-[15px] lg:flex lg:px-0 pt-5 lg:pt-0">
+                            <li class="pr-[30px]"><a href="index.html"
+                                    class="text-white lg:text-[#25294a] text-[16px] py-2 inline-block  uppercase hover:text-[#f5317f]">Σπίτι</a>
+                            </li>
+                            <li class="pr-[30px]"><a href="playback-guide.html"
+                                    class="text-white lg:text-[#25294a] text-[16px] py-2 inline-block  uppercase hover:text-[#f5317f]">Οδηγός
+                                    αναπαραγωγής
+                                </a></li>
+                            <li><a href="contact-us.html"
+                                    class="text-white lg:text-[#25294a] text-[16px] py-2 inline-block  uppercase hover:text-[#f5317f]">Επικοινωνήστε
+                                    μαζί μας</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="toggle-button lg:hidden">
+                        <i class="fa-solid fa-bars text-[#25294a] text-2xl"></i>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header section  -->
+
+    <!-- Banner section -->
+    <section
+        class="bg-about_banner bg-center bg-no-repeat bg-cover py-[100px]  flex items-center  h-[500px] relative after:content-[''] after:w-[100%] after:h-[100%] after:bg-[#2a295b8c] after:absolute after:inset-0 after:z-[-1] z-10">
+        <div class="mx-auto px-[15px] w-[100%] max-w-[1400px]">
+            <div>
+                <div class="text-center">
+                    <h2 class="text-[40px] text-white font-bold"> ΕΠΙΚΟΙΝΩΝΉΣΤΕ ΜΑΖΊ ΜΑΣ</h2>
+                    <ul class="flex mt-[30px] justify-center">
+                        <li class="pr-[16px] "><a href="index.html" class="text-white text-[16px] font-bold">ΣΠΊΤΙ</a>
+                        </li>
+                        <li class="pr-[16px] text-white text-[16px]">/</li>
+                        <li class="text-white text-[16px]"> ΕΠΙΚΟΙΝΩΝΉΣΤΕ ΜΑΖΊ ΜΑΣ</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[80px]">
+        <div class="mx-auto px-[15px] w-[100%] max-w-[1400px]">
+            <p class="text-[16px] leading-[28px] mb-0 pb-[40px]">Τα σχόλιά σας, οι ερωτήσεις και οι ερωτήσεις σας είναι
+                πολύτιμα για εμάς. Είτε αναζητάτε βοήθεια, είτε
+                έχετε προτάσεις ή απλά θέλετε να συνδεθείτε, είμαστε εδώ για να ακούσουμε και να παρέχουμε την
+                υποστήριξη που χρειάζεστε. Μη διστάσετε να επικοινωνήσετε μέσω των παρεχόμενων επιλογών επικοινωνίας και
+                ας ξεκινήσουμε μια συνομιλία. Η ικανοποίησή σας είναι προτεραιότητά μας και ανυπομονούμε να ακούσουμε
+                νέα σας.
+            </p>
+            <h3 class="text-[40px] pb-[50px]">Φόρμα Επικοινωνίας
+            </h3>
+            <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-16 lg:justify-center">
+                <div class="">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-sm font-medium text-[#2d325a]">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium text-[#2d325a]">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="subject" class="block text-sm font-medium text-[#2d325a]">Subject</label>
+                            <input type="text" id="subject" name="subject" class="mt-1 p-2 w-full border rounded">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="block text-sm font-medium text-[#2d325a]">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                class="mt-1 p-2 w-full border rounded"></textarea>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <button type="submit"
+                                class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="">
+                    <img src="../src/images/contact_banner.png" alt="" class="mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <footer class="bg-[#25294a] text-center">
+        <div class="mx-auto px-[15px] w-[100%] max-w-[1400px]">
+            <div class="lg:py-[80px] py-[50px]">
+                <div class="lg:flex lg:justify-between lg:items-center">
+                    <div class="text-center mb-[24px] lg:mb-0">
+                        <a href="index.html"> <img src="../src/images/Logo-dark-n.png" alt=""
+                                class="custom-filter mx-auto lg:mx-0 mb-30px"></a>
+                    </div>
+                    <div class="">
+                        <ul class="lg:flex">
+                            <li class="pr-[20px] "><a href="index.html"
+                                    class="text-white text-[16px] leading-normal pb-[24px] inline-block lg:pb-0">Σπίτι</a>
+                            </li>
+                            <li class="pr-[20px]"><a href="playback-guide.html"
+                                    class="text-white text-[16px] leading-normal pb-[24px] inline-block lg:pb-0">Οδηγός
+                                    αναπαραγωγής
+                                </a></li>
+                            <li class="pr-[20px]"><a href="contact-us.html"
+                                    class="text-white text-[16px] leading-normal pb-[24px] inline-block lg:pb-0">Επικοινωνήστε
+                                    μαζί μας
+                                </a></li>
+                            <li class="pr-[20px]"><a href="terms-and-conditions.html"
+                                    class="text-white text-[16px] leading-normal pb-[24px] inline-block lg:pb-0">Όροι
+                                    και Προϋποθέσεις</a></li>
+                            <li><a href="privacy-policy.html" class="text-white text-[16px] leading-normal">Πολιτική
+                                    απορρήτου
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-[#ffffff87]">
+            <div class="mx-auto px-[15px] w-[100%] max-w-[1400px]">
+
+                <p class="py-6 text-white">Πνευματικά δικαιώματα © sloxman.com Με την επιφύλαξη παντός δικαιώματος
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+    <script src="../src/js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".toggle-button").click(function () {
+                $(".menu").slideToggle();
+            })
+        });
+
+    </script>
+    <script src="../src/js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+</body>
+
+</html>
