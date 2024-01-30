@@ -73,3 +73,36 @@
         transform: translateY(0px);
     }
 }
+
+/* OPEN - CLOSE BUTTONS */
+
+.menu-btn {
+    position: absolute;
+    display: inline;
+    right: 20px;
+    font-size: 22px;
+    z-index: 999;
+}
+
+.menu-btn a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-open:after {
+    content: "\f0c9";
+    font-family: "fontawesome";
+    color: #333;
+
+    transition-property: all .3s linear 0s;
+}
+
+
+
+.btn-close:after {
+    content: "\f00d";
+    font-family: "fontawesome";
+    color: #25294a;
+    transition-property: all .2s linear 0s;
+}
+

@@ -40,8 +40,8 @@
                         </ul>
 
                     </div>
-                    <div class="toggle-button lg:hidden">
-                        <i class="fa-solid fa-bars text-[#25294a] text-2xl"></i>
+                    <div class="menu-btn lg:hidden">
+                        <a class="btn-open"></a>
                     </div>
                 </nav>
             </div>
@@ -261,14 +261,7 @@
 
 
     <script src="../src/js/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".toggle-button").click(function () {
-                $(".menu").slideToggle();
-            })
-        });
-
-    </script>
+    <script src="../src/js/custom.js"></script>
     <script src="../src/js/aos.js"></script>
     <script>
         AOS.init({
