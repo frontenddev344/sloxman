@@ -653,10 +653,6 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-\[500px\] {
   height: 500px;
 }
@@ -975,10 +971,6 @@ video {
   padding-right: 30px;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1084,11 +1076,6 @@ video {
 .text-\[\#2d325a\] {
   --tw-text-opacity: 1;
   color: rgb(45 50 90 / var(--tw-text-opacity));
-}
-
-.text-\[\#3b38eb\] {
-  --tw-text-opacity: 1;
-  color: rgb(59 56 235 / var(--tw-text-opacity));
 }
 
 .text-black {
