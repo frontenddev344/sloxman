@@ -8,11 +8,11 @@ module.exports = {
         'rubik': ['Rubik', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-pattern': "url('../src/images/home_banner_lg_bg.jpg')",
-        'about_banner': "url('../src/images/about_banner.png')",
-        'contact_bnr': "url('../src/images/contact_bnr.jpg')",
-        'termn': "url('../src/images/termn.jpg')",
-        'privacy': "url('../src/images/Privacy-.avif')",
+        'hero-pattern': "url('../build/images/home_banner_lg_bg.jpg')",
+        'about_banner': "url('../build/images/about_banner.png')",
+        'contact_bnr': "url('../build/images/contact_bnr.jpg')",
+        'termn': "url('../build/images/termn.jpg')",
+        'privacy': "url('../build/images/Privacy-.avif')",
       },
 
 

@@ -5,7 +5,7 @@
     <title> Όροι και Προϋποθέσεις </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../src/images/logo_fav.png" type="image/x-icon">
+    <link rel="icon" href="../build/images/logo_fav.png" type="image/x-icon">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="../src/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -20,7 +20,7 @@
                 <nav class="flex justify-between items-center py-4">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="../src/images/Logo-dark-n.png" alt="">
+                            <img src="../build/images/Logo-dark-n.png" alt="">
                         </a>
                     </div>
                     <div
@@ -175,7 +175,7 @@
             <div class="lg:py-[80px] py-[50px]">
                 <div class="lg:flex lg:justify-between lg:items-center">
                     <div class="text-center mb-[24px] lg:mb-0">
-                        <a href="index.html"><img src="../src/images/Logo-dark-n.png" alt=""
+                        <a href="index.html"><img src="../build/images/Logo-dark-n.png" alt=""
                                 class="custom-filter mx-auto lg:mx-0 mb-30px"></a>
                     </div>
                     <div class="">
@@ -212,9 +212,9 @@
     </footer>
     <!--  -->
 
-    <script src="../src/js/jquery.min.js"></script>
-    <script src="../src/js/custom.js"></script>
-    <script src="../src/js/aos.js"></script>
+    <script src="../build/js/jquery.min.js"></script>
+    <script src="../build/js/custom.js"></script>
+    <script src="../build/js/aos.js"></script>
     <script>
         AOS.init({
             duration: 1200,
@@ -223,3 +223,5 @@
 </body>
 
 </html>
+
+<!-- npx tailwindcss -i ./src/style.css -o ./build/style.css --watch -->

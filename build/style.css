@@ -808,23 +808,23 @@ video {
 }
 
 .bg-about_banner {
-  background-image: url('../src/images/about_banner.png');
+  background-image: url('../build/images/about_banner.png');
 }
 
 .bg-contact_bnr {
-  background-image: url('../src/images/contact_bnr.jpg');
+  background-image: url('../build/images/contact_bnr.jpg');
 }
 
 .bg-hero-pattern {
-  background-image: url('../src/images/home_banner_lg_bg.jpg');
+  background-image: url('../build/images/home_banner_lg_bg.jpg');
 }
 
 .bg-privacy {
-  background-image: url('../src/images/Privacy-.avif');
+  background-image: url('../build/images/Privacy-.avif');
 }
 
 .bg-termn {
-  background-image: url('../src/images/termn.jpg');
+  background-image: url('../build/images/termn.jpg');
 }
 
 .bg-cover {
