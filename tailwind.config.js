@@ -15,8 +15,6 @@ module.exports = {
         'privacy': "url('../build/images/Privacy-.avif')",
       },
 
-
-
     },
   },
   plugins: [],
